@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo img {
+  width: 200px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+.navigation ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+.header-links {
+  text-decoration: none;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.main-content h1 {
+  margin-top: 300px;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.main-content p {
+  text-align: center;
+  font-size: 26px;
+  width: 500px;
+  margin-top: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-content button {
+  padding: 10px 20px;
+  font-size: 19px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #00322e;
+  color: #00322e;
+  transition: 0.2s ease-out;
+}
+
+.main-content button:hover {
+  background-color: #00322e;
+  border-color: white;
+  color: white;
+}
+
+.newone {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.newone li {
+  list-style: none;
+  display: contents;
+  color: #00322e;
+}
+
+.newone a {
+  margin-left: 85px;
+  margin-right: 85px;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+
+.newone a:hover {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 970px) {
+  .newone {
+    display: none;
+    transition: 0.2s ease-out;
+  }
+
+  .main-content h1 {
+    margin-top: 340px;
+  }
+}
